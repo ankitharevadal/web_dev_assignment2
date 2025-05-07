@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bisi Kaapi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f4f1ee;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #3e2f2f;
+    }
+
+    header {
+      background-color: #6f4e37;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .main-title {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-top: 1rem;
+      color: #4e342e;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #d7ccc8;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #3e2f2f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .section-content {
+      padding: 2rem;
+    }
+
+    .section-title {
+      font-size: 1.75rem;
+      color: #5d4037;
+      margin-bottom: 1rem;
+    }
+
+    .menu-category {
+      margin-bottom: 2rem;
+    }
+
+    .menu-category h5 {
+      font-size: 1.5rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #6d4c41;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.5rem 2rem;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px dotted #a1887f;
+      padding: 0.5rem 0;
+      font-size: 1rem;
+    }
+
+    .price {
+      font-weight: bold;
+    }
+
+    .image-placeholder {
+      background-color: #c8b7a6;
+      height: 200px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #6d4c41;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 style="color: #ffffff;">Welcome to Bisi Kaapi</h1>
+    <p>Your local cozy coffee spot</p>
+  </header>
+
+  <div class="main-title">Bisi Kaapi</div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="#address">Address</a>
+  </nav>
+
+  <section id="home" class="section-content">
+    <h3 class="section-title">Home</h3>
+    <p>Bisi Kaapi is a cozy coffee shop located in your neighborhood, perfect for students, professionals, and families to relax with a warm drink or a refreshing cold one. We offer a variety of beverages and snacks, combining quality with a comforting atmosphere.</p>
+  </section>
+  
+
+  <section id="menu" class="section-content">
+    <h3 class="section-title">Our Menu</h3>
+
+    <div class="menu-category">
+      <h5>Tea</h5>
+      <div class="menu-grid">
+        <div class="menu-item"><span>Tea</span><span class="price">₹15</span></div>
+        <div class="menu-item"><span>Ginger Tea</span><span class="price">₹25</span></div>
+        <div class="menu-item"><span>Lemon Tea</span><span class="price">₹20</span></div>
+        <div class="menu-item"><span>Masala Tea</span><span class="price">₹25</span></div>
+        <div class="menu-item"><span>Badam Milk</span><span class="price">₹20</span></div>
+        <div class="menu-item"><span>Boost</span><span class="price">₹25</span></div>
+        <div class="menu-item"><span>Horlicks</span><span class="price">₹25</span></div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h5>Juices</h5>
+      <div class="menu-grid">
+        <div class="menu-item"><span>Orange</span><span class="price">₹60</span></div>
+        <div class="menu-item"><span>Watermelon</span><span class="price">₹70</span></div>
+        <div class="menu-item"><span>Musk Melon</span><span class="price">₹60</span></div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h5>Mocktails</h5>
+      <div class="menu-grid">
+        <div class="menu-item"><span>Mint Lime Mojito</span><span class="price">₹60</span></div>
+        <div class="menu-item"><span>Green Apple Mojito</span><span class="price">₹60</span></div>
+        <div class="menu-item"><span>Peach Ice Tea</span><span class="price">₹80</span></div>
+        <div class="menu-item"><span>Blue Curacao</span><span class="price">₹100</span></div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h5>Coffee</h5>
+      <div class="menu-grid">
+        <div class="menu-item"><span>Filter Coffee</span><span class="price">₹30</span></div>
+        <div class="menu-item"><span>Coffee</span><span class="price">₹25</span></div>
+        <div class="menu-item"><span>Black Coffee</span><span class="price">₹20</span></div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h5>Easy Bites</h5>
+      <div class="menu-grid">
+        <div class="menu-item"><span>French Fries</span><span class="price">₹89</span></div>
+        <div class="menu-item"><span>Peri Peri Fries</span><span class="price">₹99</span></div>
+        <div class="menu-item"><span>Chicken Nugget</span><span class="price">₹109</span></div>
+        <div class="menu-item"><span>Cheese Loaded Fries</span><span class="price">₹139</span></div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h5>Sandwich</h5>
+      <div class="menu-grid">
+        <div class="menu-item"><span>Egg Cheese</span><span class="price">₹89</span></div>
+        <div class="menu-item"><span>Corn</span><span class="price">₹89</span></div>
+        <div class="menu-item"><span>Spinach Corn</span><span class="price">₹99</span></div>
+        <div class="menu-item"><span>Spicy Veg Cheese</span><span class="price">₹99</span></div>
+        <div class="menu-item"><span>Veg Supreme</span><span class="price">₹109</span></div>
+        <div class="menu-item"><span>Grilled Chicken</span><span class="price">₹129</span></div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h5>Milkshake</h5>
+      <div class="menu-grid">
+        <div class="menu-item"><span>Banana</span><span class="price">₹65</span></div>
+        <div class="menu-item"><span>Oreo</span><span class="price">₹75</span></div>
+        <div class="menu-item"><span>KitKat</span><span class="price">₹75</span></div>
+        <div class="menu-item"><span>Chocolate</span><span class="price">₹75</span></div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h5>Bread Snacks</h5>
+      <div class="menu-grid">
+        <div class="menu-item"><span>Bread Omlette</span><span class="price">₹60</span></div>
+        <div class="menu-item"><span>Double Omlette</span><span class="price">₹50</span></div>
+        <div class="menu-item"><span>Bread Butter Toast</span><span class="price">₹35</span></div>
+        <div class="menu-item"><span>Bread Butter Cheese</span><span class="price">₹45</span></div>
+        <div class="menu-item"><span>Bread Butter Jam</span><span class="price">₹40</span></div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h5>Maggi</h5>
+      <div class="menu-grid">
+        <div class="menu-item"><span>Veg Maggi</span><span class="price">₹60</span></div>
+        <div class="menu-item"><span>Spicy Egg Maggi</span><span class="price">₹70</span></div>
+        <div class="menu-item"><span>Veg Cheese Maggi</span><span class="price">₹80</span></div>
+        <div class="menu-item"><span>Chicken Maggi</span><span class="price">₹90</span></div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h5>Cold Beverages</h5>
+      <div class="menu-grid">
+        <div class="menu-item"><span>Cold Coffee</span><span class="price">₹95</span></div>
+        <div class="menu-item"><span>Lemon Juice</span><span class="price">₹40</span></div>
+        <div class="menu-item"><span>Lemon Soda</span><span class="price">₹50</span></div>
+      </div>
+    </div>
+
+    <p><strong>Working Hours:</strong> 10 AM – 10 PM</p>
+  </section>
+
+  <section id="gallery" class="section-content">
+    <h3 class="section-title">Gallery</h3>
+    <img src="ankitha1.jpg" alt="Bisi Kaapi Front View" class="img-fluid" style="width: 100%; max-height: 1800px; object-fit: cover; border-radius: 10px; margin-bottom: 1rem;">
+  </section>
+  
+
+  <section id="contact" class="section-content">
+    <h3 class="section-title">Contact Us</h3>
+    <p>No information found</p>
+  </section>
+
+  <section id="address" class="section-content">
+    <h3 class="section-title">Address</h3>
+    <div style="text-align: center; margin-bottom: 1rem;">
+  <a href="https://maps.app.goo.gl/RCBqvRTMoak6GyYk7" target="_blank" style="color: #4e342e; font-weight: bold;">
+    📍 View on Google Maps
+  </a>
+</div>
+<p style="text-align: center;">
+  <em>Click on this link for Google Maps and more photos.</em>
+</p>
+
+  </section>
+</body>
+
+</html>
